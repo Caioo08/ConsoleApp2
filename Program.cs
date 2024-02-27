@@ -10,6 +10,14 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+            String nome;
+
+            Console.WriteLine("Digite o seu nome: ");
+            nome = Console.ReadLine();
+
+            Console.WriteLine("O nome digitado foi: " + nome);
+
+            Console.ReadKey();
         }
     }
 }
